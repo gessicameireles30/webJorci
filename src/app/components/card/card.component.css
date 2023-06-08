@@ -1,0 +1,44 @@
+.example-card {
+    max-width: 400px;
+    margin-bottom: 6px;
+    display: inline-block;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+mat-card-title {
+    font-family: Roboto, ;
+}
+
+.example-card img {
+
+    width: 300px;
+    height: 00px;
+    margin-left: 30px;
+}
+
+button {
+    background-color: white;
+}
+
+div {
+
+    background: linear-gradient(90deg,
+            rgba(54, 54, 54) 0%,
+            rgba(0, 0, 0) 35%,
+            rgba(28, 28, 28) 100%);
+}
+
+section {
+    background-color: white;
+}
+
+.example-button-row a:hover {
+    background-color: #ccc;
+}
+
+p {
+    padding-top: 5px;
+}
