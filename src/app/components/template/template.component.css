@@ -10,3 +10,42 @@
     max-width: 1020px;
     margin: 0 auto;
 }
+
+.example-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .example-container button {
+    margin: 5px;
+  }
+
+  @media (max-width: 700px){
+    nav, ul{
+    flex-direction: column;
+   }
+   ul{
+    text-align: center;
+    margin: 0;
+    height: 0;
+   }
+   nav{
+    padding-top: 0px;
+    align-items: flex-start;
+   }
+   h1{
+     margin: 10px;
+   }
+   button{
+    display: flex;
+   }
+   li, ul{
+     width:100%;
+   }
+
+}
+.example-icon a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Merriweather', serif;
+}

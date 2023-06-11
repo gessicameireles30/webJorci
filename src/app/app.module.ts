@@ -13,6 +13,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { HomeComponent } from './components/home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { PontosTuristicosComponent } from './components/pontos-turisticos/pontos-turisticos.component';
+import { ServicosComponent } from './components/servicos/servicos.component';
+import { ComidasComponent } from './components/comidas/comidas.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { PontosTuristicosComponent } from './components/pontos-turisticos/pontos
     TemplateComponent,
     HomeComponent,
     CardComponent,
-    PontosTuristicosComponent
+    PontosTuristicosComponent,
+    ServicosComponent,
+    ComidasComponent
   ],
   imports: [
     BrowserModule,
